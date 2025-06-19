@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Semáforo Inteligente</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Semáforo Inteligente</h1>
+        <h2 id="bem_vindo"></h2>
+
+        <div class="semaforo">
+            <div class="luz vermelha"></div>
+            <div class="luz amarela"></div>
+            <div class="luz verde"></div>
+        </div>
+
+        <button id="botaoPedestre">PEDIR PARA ATRAVESSAR</button>
+
+        <div class="info">
+            <p>Contagem: <span id="contador">0</span> s</p>
+            <p>Status: <span id="status"> </span></p>
+        </div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
